@@ -45,3 +45,72 @@ This project is a comprehensive e-commerce web application built using React. It
    ```bash
    git clone https://github.com/yourusername/e-commerce-web-app.git
    cd e-commerce-web-app
+   
+2. Install dependencies:
+   ```bash
+   npm install
+   
+4. Run the application:
+   ```bash
+   npm start
+ The API will be running on http://localhost:3000.
+
+## Project Structure
+    ```bash
+      src/
+      ├── component/
+      │   ├── layout/
+      │   │   ├── Footer.js
+      │   │   ├── Header.js
+      │   │   └── Routes/
+      │   │       ├── AdminRoute.js
+      │   │       └── PrivateRoute.js
+      │   └── ...
+      ├── pages/
+      │   ├── Admin/
+      │   │   ├── AdminsDashboard.js
+      │   │   ├── CreateCategory.js
+      │   │   ├── CreateProduct.js
+      │   │   ├── Orders.js
+      │   │   ├── Product.js
+      │   │   ├── UpdateProduct.js
+      │   │   └── UsersDashboard.js
+      │   ├── Beauty.js
+      │   ├── CartPage.js
+      │   ├── Categories.js
+      │   ├── CautionNotice.js
+      │   ├── ChangePassword.js
+      │   ├── CheckOut.js
+      │   ├── DetialPage.js
+      │   ├── Electronic.js
+      │   ├── Fashion.js
+      │   ├── ForgetPass.js
+      │   ├── Fresh.js
+      │   ├── Furniture.js
+      │   ├── Grocery.js
+      │   ├── HomePage.js
+      │   ├── HomeandKitchen.js
+      │   ├── Login.js
+      │   ├── MyProfile.js
+      │   ├── OtpEnter.js
+      │   ├── PageNotFound.js
+      │   ├── PasswordChange.js
+      │   ├── Policy.js
+      │   ├── RefundPolicy.js
+      │   ├── Register.js
+      │   ├── SearchProduct.js
+      │   ├── Stationary.js
+      │   ├── YourOrder.js
+      │   ├── ...
+      │   └── FemaleFashion.js
+      ├── App.js
+      ├── index.js
+      └── ...
+
+## Usage
+- **Authentication:** Secure your account with email verification and password management features.
+- **Admin Panel:** Access administrative features for managing users, products, and orders through the admin panel.
+
+## Backend
+The backend for this application is built using React and can be found [Here](https://github.com/Syed1811/apkaBazzarE-commBackend/).
+
